@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <!-- HOME -->
+        <header class="home">
+            <button id="theme" onclick="switch_theme()">
+                <i class="fa-solid fa-sun" id="sunIcon" style="font-size: 3.5em;"></i>
+                <i class="fa-solid fa-moon" id="moonIcon" style="font-size: 3.5em; display: none;"></i>
+            </button>
+
+            <div class="home_headings">
+                <h1 class="text_heading">Hi, I'm <span class="txt-clr">James Carl <br> Gonzales</span>,</h1>
+                <h2 class="text_subheading">and I'm an IT student.</h2>
+            </div>
+         
+            <button class="btn" id="about_btn">
+                About Me <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </header>
+        <!-- ABOUT ME -->
+        <section class="about_me">
+            <div class="about_text">
+                <h3 class="about_me_heading">About Me</h3>
+                <p class="about_me_text"> 
+                    I am currently a grade 12 student studying IT in 
+                    Mobile App and Web Development at STI College Balayan.
+                    I have studied programming languages such as Java, 
+                    Javascript, C#, and HTML and CSS.
+                </p>
+            </div>
+            <div class="img_container">
+                <img src="src/AboutMe_img.jpeg" class="about_img" alt="profile">
+            </div>
+        </section>
+        <!-- CREDENTIALS -->
+        <section class="credentials">
+            <h3 class="cdt_heading">Credentials</h3>
+           
+            <div class="credential_container">  
+                <div class="education_container">
+                    <h4 class="cdt_subheading">Education</h4>
+                    <p class="cdt_text">
+                        Bilaran Elementary school </br>
+                        (2013-2019) </br> </br> </br>
+                        
+                        Bilaran National High School </br>
+                        (2019-2023) </br> </br> </br>
+                        
+                        STI College Balayan </br>
+                        (2023-Present)
+                    </p>  
+                </div>
+
+                <div class="skill_container">
+                    <h4 class="cdt_subheading">Skills</h4>
+                    <p class="cdt_text">
+                        Decision Making </br>
+                        Organize </br>
+                        Web Development
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>

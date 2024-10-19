@@ -1,0 +1,130 @@
+:root{
+    --clr-dark-mode: #020912;
+    --clr-DM-textclr: #fafafa;
+
+    --clr-light-mode: #f3f4f6;
+    --clr-LM-textclr: #060607;
+
+    --clr-accent-color: #98e8cd;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    background-color: var(--clr-dark-mode);
+    color: var(--clr-DM-textclr);
+    transition: ease-in-out;
+}
+/*  Home  */
+.home{
+    background-image: url('./src/home_bg.webp');
+    background-position: center; 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#theme{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin-top: 15vh;
+    margin-left: 12vh;
+}
+#theme i{
+   color: var(--clr-light-mode);
+}
+
+.home_headings{
+    margin-top: 18vh;
+    margin-left: 12vh;
+}
+.text_heading {
+   font-weight: normal;
+   margin: 0;
+   font-size: 5.3rem;
+}
+.text_subheading{
+    font-weight: normal;
+    margin: 0;
+    font-size: 2rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: var(--clr-DM-textclr);
+    border: 2px solid; 
+    border-color: var(--clr-accent-color);
+    border-radius: 50px;
+    margin-left: 12vh;
+    margin-top: 25px;
+}
+
+
+.txt-clr{
+    color: var(--clr-accent-color);
+}
+/*  About  */
+.about_me{
+    display: flex;
+    justify-content: space-between;
+    gap: 25%;
+    align-items: center;    
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+.about_text{
+    margin-left: 12vh;
+    width: 40%;
+}
+.about_me_heading{
+    font-weight: normal;
+    font-size: 4rem;
+    color: var(--clr-accent-color);
+}
+.about_me_text{
+    font-size: 2rem;
+    text-align: justify;
+}
+.img_container{
+    width: 50%;
+    height: auto;
+    margin-right: 12vh;
+    
+}
+.about_img{
+    max-width: 100%;
+    height: auto;
+}
+/*  Credentials  */
+.credentials{
+    background-image: url(src/credential_bg.webp);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.credential_container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25vh;
+    margin-right: 55vh;
+}
+.cdt_heading{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 12vh;
+    margin-left: 12vh;
+}
+.cdt_subheading{
+    color: var(--clr-accent-color);
+    font-size: 2rem;
+}
+.cdt_text{
+    font-size: 1.5rem;
+}
